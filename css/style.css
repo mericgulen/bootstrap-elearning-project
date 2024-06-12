@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+}
+:root {
+  --primary-color: #41c9e2;
+  --light-color: #ecfafc;
+  --clr-white: #fff;
+  --clr-grey: #7b7a7a;
+  --clr-dark: #05243a;
+}
+
+.navbar-nav a.nav-link {
+  color: #222;
+  font-size: 15px;
+  font-weight: 600;
+}
+.navbar-nav a.nav-link:hover,
+.navbar-nav a.nav-link.active,
+.navbar-brand h2,
+i {
+  color: var(--primary-color) !important;
+}
+
+ 
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  border: none;
+  outline: none;
+}
+.skills {
+  background: var(--light-color) !important;
+  transition: all 0.4s linear;
+}
+.skills:hover {
+  background: var(--primary-color) !important;
+  color: var(--clr-white) !important;
+}
+.skills-section .skills i {
+  font-size: 50px;
+}
+
+.skills:hover i {
+  color: var(--clr-white) !important;
+}
+
+footer .btn-link {
+  text-decoration: none;
+  margin: 0;
+  padding: 5px 0;
+  transition: all 0.3s linear;
+}
+footer .btn-link:hover {
+  letter-spacing: 1.5px;
+  color: var(--primary-color) !important;
+}
+
+footer .btn-link::before {
+  content: '\1F892';
+  font-family: bootstrap-icons !important;
+  margin-right: 10px;
+}
+footer .social:hover {
+  background-color: var(--light-color);
+}
+
+footer .link--hover {
+  border: 0;
+  border-right: 1px solid var(--clr-grey);
+  transition: all 0.3s linear;
+}
+footer .link--hover:last-child {
+  border: 0;
+}
+
+footer .link--hover:hover {
+  color: var(--primary-color) !important;
+}
